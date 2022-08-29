@@ -1,0 +1,156 @@
+* {
+    font-family: "Helvectica", sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+ul {
+    text-align: right;
+}
+
+.logo {
+    padding-left: 10px;
+    padding-top: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    z-index: 2;
+}
+
+.links {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 20px 20px;
+}
+
+.jar {
+    height: 700px;
+    width: 1200px;
+    z-index: 1;
+}
+
+.mission {
+    display: inline;
+    width: 1200px;
+    height: 40px;
+    padding: 20px;
+    z-index: 2;
+    background-color: black;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+   
+}
+
+.mission_bar {
+    display: inline;
+    width: 1200px;
+    height: 40px;
+    z-index: 2;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.center_section {
+    max-width: 1000px;
+    margin: 69px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.tea-image {
+    max-width: 250px;
+    padding: 20px;
+
+}
+
+.tea-image img {
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+
+.caption {
+    margin: 10px auto;
+}
+
+#location {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*vqa66r*_ga*NzQ0OTE4MTg0Ni4xNjU4NDA4OTI0*_ga_3LRZM6TM9L*MTY2MTc3MTc1Ni4xOS4xLjE2NjE3NzE3NzYuNDAuMC4w");
+    display: inline-flexbox;
+    justify-content: center;
+    margin: 100px auto 0;
+    max-width: 1200px;
+    min-height: 500px;    
+}
+
+#loc_name {
+    color: seashell;
+    background-color: transparent;
+    margin-bottom: 15px;
+    padding-top: 100px;
+}
+
+.location_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.location_box > div {
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+.location_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    max-width: 300px;
+    min-height: 100%;
+    margin: 15px 20px;
+    padding: 15px 40px;
+    background-color: black;
+    opacity: 1;
+    line-height: 200%;
+}
+
+footer div {
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#copyright {
+    text-align: left;
+    padding-left: 20px;
+}
+
